@@ -1,0 +1,273 @@
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+/* .my-link{
+    margin: 2px;
+    color:white;
+} */
+.my-link:hover{
+    color: rgb(255, 140, 0)!important;
+    border-bottom: 1px solid  rgb(255, 140, 0);
+}
+.my-link-active{
+    color: rgb(255, 140, 0)!important;
+    border-bottom: 1px solid  rgb(255, 140, 0);
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar-scrolled {
+    background-color: white; /* Warna latar belakang putih */
+    transition: background-color 0.3s ease; /* Efek transisi */
+}
+
+
+#hero{
+    height: 90vh;
+}  
+
+#company-profile{
+}
+.my-title1{
+    color: rgb(107, 107, 107);
+}
+.my-title2{
+    color: rgb(39, 39, 39);
+}
+.my-sub-title1{
+    color: rgb(0, 79, 119);
+}
+.parallax {
+    position: relative; /* Tetapkan posisi relatif agar lapisan overlay bisa ditempatkan di atas latar belakang */
+    background-image: url('https://img.freepik.com/free-photo/selective-closeup-shot-black-wallet-magazine-near-gray-laptop-glasses-table_181624-3031.jpg?t=st=1710474348~exp=1710477948~hmac=996a13d258672dc663bbcb506eba06f64412af475a7c4bb6d8b6cd8b844cd87f&w=740'); /* Ganti dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-attachment: fixed; /* Tetapkan latar belakang agar tidak bergulir saat jendela digulir */
+    background-position: center;
+    /* height: 50vh; suaikan ketinggian sesuai kebutuhan */
+}
+.overlay {
+    position: absolute; /* Tetapkan posisi absolut agar bisa menutupi seluruh area parallax */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.298); /* Warna overlay dengan transparansi 50% */
+    backdrop-filter: blur(1px); /* Efek blur untuk latar belakang */
+    z-index: 1; /* Pastikan overlay berada di atas latar belakang */
+}
+.overlay1 {
+    position: absolute; /* Tetapkan posisi absolut agar bisa menutupi seluruh area parallax */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596); /* Warna overlay dengan transparansi 50% */
+    /* backdrop-filter: blur(1px); Efek blur untuk latar belakang */
+    z-index: 1; /* Pastikan overlay berada di atas latar belakang */
+    border-radius: 10px
+}
+.overlay2 {
+    position: absolute; /* Tetapkan posisi absolut agar bisa menutupi seluruh area parallax */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596); /* Warna overlay dengan transparansi 50% */
+    /* backdrop-filter: blur(1px); Efek blur untuk latar belakang */
+    z-index: 1; /* Pastikan overlay berada di atas latar belakang */
+    /* border-radius: 10px */
+}
+.custom-list {
+    /* font-size: 30px; */
+    list-style-type: none;
+    margin-bottom: 1rem;
+    background: url('../svg/check-square-svgrepo-com.svg') no-repeat left top;
+    background-size: 24px 24px;
+    padding: 0px 20px 13px 24px;
+    
+}
+
+.card1 {
+    transition: transform 0.3s ease; /* Efek transisi untuk perubahan zoom */
+}
+
+.card1:hover {
+    transform: scale(1.1); /* Perbesar gambar saat dihover */
+}
+
+.img-card2{
+    position: absolute;
+}
+.card2:hover{
+    padding-top: -10px;
+}
+
+.card-why{
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50vh; */
+}
+
+/* Utility */
+.btn-about{
+    border-radius: 5px;
+    color: white;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btn-about:hover{
+    border-radius: 5px;
+    color: white;
+    /* From https://css.glass */
+    background: rgba(255, 187, 0, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 187, 0, 0.3);
+}
+/* //Utility */
+.footer{
+    background-color: rgb(13, 32, 56);
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Atur jarak dari bawah */
+    right: 20px; /* Atur jarak dari kanan */
+    z-index: 1000; /* Pastikan tombol selalu muncul di atas elemen lain */
+  }
+  
+  .whatsapp-button a {
+    color: bisque;
+    display: block;
+    width: 60px; /* Sesuaikan lebar tombol */
+    height: 60px; /* Sesuaikan tinggi tombol */
+    border-radius: 50%; /* Agar tombol menjadi bulat */
+    background-color: #25d366; /* Warna latar belakang tombol WhatsApp */
+    text-align: center;
+    line-height: 60px; /* Agar ikon berada di tengah tombol */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+  }
+  
+  .whatsapp-button img {
+    width: 40px; /* Sesuaikan ukuran ikon WhatsApp */
+  }
+  
